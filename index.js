@@ -10,6 +10,7 @@ require("dotenv")["config"]()
 client.login(process.env.token);
 client.on("ready", () => {
     console.log("Client Started")
+    require("./bot")
     Pkg()
 })
 
