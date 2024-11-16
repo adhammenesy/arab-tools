@@ -4,7 +4,10 @@ const { Client } = require('discord.js');
 const client = new Client({ intents: ["Guilds", "GuildMessages", "GuildVoiceStates"] });
 // Create a new class bot
 const Bot = new arabtools.bot(client);
-
+client.login(process.env.Bottoken)
+client.on("ready", () => {
+    console.log("Bot is ready")
+})
 
 
 client.on("messageCreate", async (msg) => {
@@ -25,11 +28,6 @@ client.on("messageCreate", async (msg) => {
     }
 })
 
-
-client.login(process.env.Bottoken)
-client.on("ready", () => {
-    console.log("Bot is ready")
-})
 
 
 
