@@ -7,11 +7,15 @@
 - Multi Cast [ UnAvailable ]
 - Quran [ UnAvailable ]
 
-
 # .env
+
 ```
     SelfToken= // Discord User Token
     BotToken= // Discord Bot Token
     SelfPrefix= // Selfbot Prefix
     BotPrefix= // Bot Prefix
 ```
+
+- [npm](https://www.npmjs.com/package/arab-tools)
+- Discord: black.dev1
+- Graphicode Team *discord.gg/graphicode*
